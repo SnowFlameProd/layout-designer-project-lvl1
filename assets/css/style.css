@@ -38,9 +38,21 @@ section {
   padding: 100px 0;
 }
 
+section.preview {
+  margin-bottom: -100px;
+}
+
 .container {
   max-width: 1110px;
   margin: 0 auto;
+}
+
+.title {
+  font-weight: 400;
+}
+
+.title span {
+  color: #fe8a02;
 }
 
 .header {
@@ -67,11 +79,6 @@ section {
 
 .header__title {
   margin-bottom: 185px;
-  font-weight: 400;
-}
-
-.header__title span {
-  color: #fe8a02;
 }
 
 .header__img {
@@ -108,5 +115,35 @@ section {
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.preview-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.preview-title {
+  margin-bottom: 30px;
+  max-width: 700px;
+  text-align: center;
+}
+
+.preview-subtitle {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.video {
+  -webkit-filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+          filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  position: relative;
 }
 /*# sourceMappingURL=style.css.map */
